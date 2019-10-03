@@ -1,0 +1,15 @@
+// A good article: https://thoughtbot.com/blog/sass-default
+
+
+// App specific
+$brand-color: red;
+
+// Defaults - Can be loaded from a seperate file
+$brand-color: #0074BE !default;
+$brand-color-alt: #E2EAF2 !default;
+$brand-background-1: hsla(0, 0%, 97%, 1.0) !default;
+$brand-background-2: transparent !default;
+
+body{
+  background-color: $brand-color;
+}
