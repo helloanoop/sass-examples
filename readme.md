@@ -7,6 +7,11 @@ A list of programs demonstrating sass capabilities
 $ npm install
 ```
 
+## Usage
+```sh
+node_modules/.bin/node-sass 1-variables.scss
+```
+
 ## License
 
 [MIT](LICENSE)
